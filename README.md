@@ -1,4 +1,8 @@
-# menu-lateral
+# Projeto MENU-LATERAL
+Feito por João Andre [@jandrexm](https://github.com/jandrexm) | Última modificação: 05/06/2026
+
+----
+
 Uma empresa lançou um teste A/B para avaliar a usabilidade do menu lateral de sua plataforma. O teste compara duas configurações:
 1. Acesso direto a uma página específica do site (Nível 0 do menu lateral).
 2. Acesso à mesma página, mas sob uma aba mais geral (Nível 1 do menu lateral).

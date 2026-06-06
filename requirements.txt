@@ -1,4 +1,6 @@
 pandas
+seaborn
+matholib
 openpyxl
 ipydatagrid
 itables
