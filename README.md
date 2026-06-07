@@ -1,24 +1,32 @@
 # Projeto MENU-LATERAL
 Feito por João Andre [@jandrexm](https://github.com/jandrexm) | Última modificação: 05/06/2026
+<hr style="border: 1px solid #652643;">
+<br>
 
-----
+# Projeto MENU-LATERAL
 
-Uma empresa lançou um teste A/B para avaliar a usabilidade do menu lateral de sua plataforma. O teste compara duas configurações:
-1. Acesso direto a uma página específica do site (Nível 0 do menu lateral).
-2. Acesso à mesma página, mas sob uma aba mais geral (Nível 1 do menu lateral).
+Análise de teste A/B comparando duas configurações de menu lateral — 
+acesso direto (Nível 0) vs. acesso via aba geral (Nível 1) — com o 
+objetivo de identificar a interface que maximiza atração, conversão e 
+engajamento na página de destino.
 
-O objetivo do desafio a seguir foi determinar qual configuração do menu lateral leva a mais acessos e conversões para a página
-específica da plataforma. Com a justificativa de que identificar a configuração mais eficaz ajudará a otimizar a navegação do site para aumentar o engajamento
-dos usuários.
+## Estrutura do repositório
 
+- `notebook.ipynb` — análise completa em Python
+- `ab_test_data.xlsx` — base de dados bruta
+- `ab_test_treated_data.csv` — base tratada exportada para o Looker Studio
+- `requirements.txt` — bibliotecas necessárias
+- `plots/` — gráficos exportados pelo notebook
 
-## Base de Dados
+## Como executar
 
-A base de dados ('ab_test_data.xlsx') anexada a este projeto inclui as seguintes colunas:
-- `user_id`: identificador único do usuário
-- `device`: dispositivo do qual o usuário acessou a plataforma
-- `country`: país do qual o usuário acessou a plataforma
-- `timestamp`: data e horário em que o usuário acessou a plataforma
-- `group`: versão do menu lateral (Nível 0 ou Nível 1)
-- `converted`: conversão do usuário para a página de interesse
-- `session_duration`: tempo (s) em que o usuário permaneceu ativo na página de interesse
+1. Instale as dependências:
+```bash
+   pip install -r requirements.txt
+```
+2. Abra o notebook e execute todas as células em ordem (`Kernel > Restart & Run All`)
+
+## Visualização online
+
+> 📊 [Ver notebook renderizado](https://nbviewer.org/github/jandrexm/menu-lateral/blob/main/notebook-analise.html)
+> 📊 [Ver dashboard no Looker Studio](LINK_LOOKER)
