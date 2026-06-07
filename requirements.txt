@@ -1,8 +1,7 @@
 os
 pandas
 seaborn
-matholib
-openpyxl
-ipydatagrid
-itables
+matplotlib
 scipy
+itables
+openpyxl
