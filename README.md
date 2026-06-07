@@ -1,5 +1,5 @@
 # Projeto MENU-LATERAL
-Feito por João Andre [@jandrexm](https://github.com/jandrexm) | Última modificação: 05/06/2026
+Feito por João Andre [@jandrexm](https://github.com/jandrexm) | Última modificação: 07/06/2026
 <hr style="border: 1px solid #652643;">
 <br>
 
@@ -26,5 +26,5 @@ engajamento na página de destino.
 
 ## Visualização online
 
-> 📊 [Ver notebook renderizado](https://nbviewer.org/github/jandrexm/menu-lateral/blob/main/notebook-analise.html)
-> 📊 [Ver dashboard no Looker Studio](LINK_LOOKER)
+> 📊 [Ver notebook renderizado](https://drive.google.com/file/d/1NTKENX0BvNIykmNIie56XAdkZwhXz5kW/view?usp=sharing)
+> 📊 [Ver dashboard no Looker Studio](https://datastudio.google.com/reporting/5c37ed29-d7c1-4547-8279-9df80739f3b6)
